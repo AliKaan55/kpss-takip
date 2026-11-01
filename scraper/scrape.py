@@ -12,7 +12,7 @@ SOURCES = [
     {"name": "OMÜ Sözleşmeli Personel İlanları", "url": "https://mezun.omu.edu.tr/tr/is-hayati/is-staj/4-b-soezlesmeli-personel-alim-ilanlari"},
 ]
 OUT = Path(__file__).resolve().parent.parent / "docs" / "data.json"
-      HEADERS = {"User-Agent": "Mozilla/5.0 (kpss-takip; kisisel ilan takibi)"}
+HEADERS = {"User-Agent": "Mozilla/5.0 (kpss-takip; kisisel ilan takibi)"}
 MONTHS = {"ocak": 1, "subat": 2, "mart": 3, "nisan": 4, "mayis": 5, "haziran": 6,
           "temmuz": 7, "agustos": 8, "eylul": 9, "ekim": 10, "kasim": 11, "aralik": 12}
 _MAP = str.maketrans("İIıÇçĞğÖöŞşÜü", "iiiccggoossuu")
