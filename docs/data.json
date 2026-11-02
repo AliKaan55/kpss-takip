@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T13:04+00:00",
+ "updated": "2026-11-02T14:09+00:00",
  "postings": [
   {
    "source": "OMÜ KPSS-B İlanları",
@@ -10,7 +10,10 @@
    "status": "okunamadi",
    "reason": "İndirilemedi: 404 Client Error: Not Found for url: https://mezun.omu.edu.tr/tr/is-hayati/is-staj/kpss-b-ilanlari/%C4%B0stanbul%20B%C3%BCy%C3%BCk%C5%9Fehir%20Belediye%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20%C4%B0ETT%20%C4%B0%C5%9Fletmeleri%20Genel%20M%C3%BCd%C3%BCrl%C3%BC%C4%9F%C3%BC%20Personel%20%28Bilgisayar%20%C4%B0%C5%9Fletmeni,%20Muhasebeci,%20Psikolog,%20M%C3%BChendis%29%20Al%C4%B1m%20%C4%B0lan%C4%B1%20%2826%20Ekim-02%20Kas%C4%B1m%202026%29.pdf%20",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": [
+    "İstanbul"
+   ]
   },
   {
    "source": "OMÜ Sözleşmeli Personel İlanları",
@@ -21,7 +24,8 @@
    "status": "manuel",
    "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": []
   },
   {
    "source": "OMÜ KPSS-B İlanları",
@@ -32,7 +36,10 @@
    "status": "okunamadi",
    "reason": "İndirilemedi: 404 Client Error: Not Found for url: https://mezun.omu.edu.tr/tr/is-hayati/is-staj/kpss-b-ilanlari/Malazgirt%20%28Mu%C5%9F%29%20Belediye%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20Personel%20%28M%C3%BChendis%20%28Harita,%20%C4%B0n%C5%9Faat%29,%20Mimar,%20Muhasebeci%29%20Al%C4%B1m%20%C4%B0lan%C4%B1%20%2802-04%20Kas%C4%B1m%202026%29.pdf%20",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": [
+    "Muş"
+   ]
   },
   {
    "source": "OMÜ KPSS-B İlanları",
@@ -43,7 +50,8 @@
    "status": "manuel",
    "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": []
   },
   {
    "source": "OMÜ KPSS-B İlanları",
@@ -54,7 +62,8 @@
    "status": "okunamadi",
    "reason": "İndirilemedi: 404 Client Error: Not Found for url: https://tga.gov.tr/kariyer%20",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": []
   },
   {
    "source": "OMÜ Sözleşmeli Personel İlanları",
@@ -65,7 +74,8 @@
    "status": "okunamadi",
    "reason": "İndirilemedi: 404 Client Error: Not Found for url: https://mezun.omu.edu.tr/tr/is-hayati/is-staj/4-b-soezlesmeli-personel-alim-ilanlari/Cumhurba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20Strateji%20ve%20B%C3%BCt%C3%A7e%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20S%C3%B6zle%C5%9Fmeli%20Bili%C5%9Fim%20Personeli%20Al%C4%B1m%20%C4%B0lan%C4%B1%20%2822%20Ekim-05%20Kas%C4%B1m%202026%29.pdf%20",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": []
   },
   {
    "source": "OMÜ KPSS-B İlanları",
@@ -76,7 +86,10 @@
    "status": "okunamadi",
    "reason": "İndirilemedi: 404 Client Error: Not Found for url: https://mezun.omu.edu.tr/tr/is-hayati/is-staj/kpss-b-ilanlari/%C3%87eltik%20%28Konya%29%20Belediye%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20Personel%20%28M%C3%BChendis%20%28Harita,%20%C4%B0n%C5%9Faat%29%29%20Al%C4%B1m%20%C4%B0lan%C4%B1%20%2802-06%20Kas%C4%B1m%202026%29.pdf%20",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": [
+    "Konya"
+   ]
   },
   {
    "source": "OMÜ Sözleşmeli Personel İlanları",
@@ -87,7 +100,8 @@
    "status": "manuel",
    "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": []
   },
   {
    "source": "OMÜ Sözleşmeli Personel İlanları",
@@ -98,7 +112,8 @@
    "status": "manuel",
    "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": []
   },
   {
    "source": "OMÜ Sözleşmeli Personel İlanları",
@@ -109,7 +124,8 @@
    "status": "manuel",
    "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": []
   },
   {
    "source": "OMÜ Sözleşmeli Personel İlanları",
@@ -120,7 +136,8 @@
    "status": "manuel",
    "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": []
   },
   {
    "source": "OMÜ Sözleşmeli Personel İlanları",
@@ -131,7 +148,10 @@
    "status": "manuel",
    "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": [
+    "Burdur"
+   ]
   },
   {
    "source": "OMÜ KPSS-B İlanları",
@@ -142,7 +162,10 @@
    "status": "okunamadi",
    "reason": "İndirilemedi: 404 Client Error: Not Found for url: https://mezun.omu.edu.tr/tr/is-hayati/is-staj/kpss-b-ilanlari/%C5%9Eile%20%28%C4%B0stanbul%29%20Belediye%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20Personel%20%28Zab%C4%B1ta%20Memuru,%20Tekniker%20%28Harita%29%29%20Al%C4%B1m%20%C4%B0lan%C4%B1%20%2809-13%20Kas%C4%B1m%202026%29.pdf%20",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": [
+    "İstanbul"
+   ]
   },
   {
    "source": "OMÜ Sözleşmeli Personel İlanları",
@@ -153,7 +176,8 @@
    "status": "manuel",
    "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": []
   },
   {
    "source": "OMÜ KPSS-B İlanları",
@@ -164,7 +188,8 @@
    "status": "okunamadi",
    "reason": "İndirilemedi: 404 Client Error: Not Found for url: https://www.jsga.edu.tr/kurumlar/jsga.edu.tr/Duyurular/2026/kasim/memur/JGnKligi-2026-Yili-Aciktan-Devlet-Memuru-Temini-Basvuru-Kilavuzu(1).pdf%20",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": []
   },
   {
    "source": "OMÜ Sözleşmeli Personel İlanları",
@@ -175,7 +200,8 @@
    "status": "manuel",
    "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": []
   },
   {
    "source": "OMÜ KPSS-B İlanları",
@@ -186,7 +212,10 @@
    "status": "okunamadi",
    "reason": "İndirilemedi: 404 Client Error: Not Found for url: https://mezun.omu.edu.tr/tr/is-hayati/is-staj/kpss-b-ilanlari/Ke%C5%9Fan%20%28Edirne%29%20Belediye%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20Personel%20%28M%C3%BChendis%20%28Harita,%20Elektrik-Elektronik%29%29%20Al%C4%B1m%20%C4%B0lan%C4%B1%20%2816-19%20Kas%C4%B1m%202026%29.pdf%20",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": [
+    "Edirne"
+   ]
   },
   {
    "source": "OMÜ Sözleşmeli Personel İlanları",
@@ -197,7 +226,8 @@
    "status": "manuel",
    "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": []
   },
   {
    "source": "OMÜ Sözleşmeli Personel İlanları",
@@ -208,7 +238,10 @@
    "status": "manuel",
    "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": [
+    "İstanbul"
+   ]
   },
   {
    "source": "OMÜ Sözleşmeli Personel İlanları",
@@ -219,7 +252,8 @@
    "status": "manuel",
    "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": []
   },
   {
    "source": "OMÜ KPSS-B İlanları",
@@ -230,7 +264,10 @@
    "status": "okunamadi",
    "reason": "İndirilemedi: 404 Client Error: Not Found for url: https://mezun.omu.edu.tr/tr/is-hayati/is-staj/kpss-b-ilanlari/Kar%C5%9F%C4%B1yaka%20%28%C4%B0zmir%29%20Belediye%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20Personel%20%28Bilgisayar%20%C4%B0%C5%9Fletmeni%29%20Al%C4%B1m%20%C4%B0lan%C4%B1%20%2830%20Kas%C4%B1m-02%20Aral%C4%B1k%202026%29.pdf%20",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": [
+    "İzmir"
+   ]
   },
   {
    "source": "OMÜ KPSS-B İlanları",
@@ -241,7 +278,10 @@
    "status": "okunamadi",
    "reason": "İndirilemedi: 404 Client Error: Not Found for url: https://mezun.omu.edu.tr/tr/is-hayati/is-staj/kpss-b-ilanlari/Asarc%C4%B1k%20%28Samsun%29%20Belediye%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20Personel%20%28Mimar%29%20Al%C4%B1m%20%C4%B0lan%C4%B1%20%2801-03%20Aral%C4%B1k%202026%29.pdf%20",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": [
+    "Samsun"
+   ]
   },
   {
    "source": "OMÜ Sözleşmeli Personel İlanları",
@@ -252,7 +292,8 @@
    "status": "manuel",
    "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": []
   },
   {
    "source": "OMÜ KPSS-B İlanları",
@@ -263,7 +304,10 @@
    "status": "okunamadi",
    "reason": "İndirilemedi: 404 Client Error: Not Found for url: https://mezun.omu.edu.tr/tr/is-hayati/is-staj/kpss-b-ilanlari/%C4%B0zmir%20B%C3%BCy%C3%BCk%C5%9Fehir%20Belediye%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20Personel%20%28Zab%C4%B1ta%20Memuru%29%20Al%C4%B1m%20%C4%B0lan%C4%B1%20%2830%20Kas%C4%B1m-04%20Aral%C4%B1k%202026%29.pdf%20",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": [
+    "İzmir"
+   ]
   },
   {
    "source": "OMÜ Sözleşmeli Personel İlanları",
@@ -274,7 +318,10 @@
    "status": "okunamadi",
    "reason": "İndirilemedi: 404 Client Error: Not Found for url: https://mezun.omu.edu.tr/tr/is-hayati/is-staj/4-b-soezlesmeli-personel-alim-ilanlari/Karaba%C4%9Flar%20%28%C4%B0zmir%29%20Belediye%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20S%C3%B6zle%C5%9Fmeli%20%28M%C3%BChendis%20%28%C3%87evre%29%29%20Personel%20Al%C4%B1m%20%C4%B0lan%C4%B1%20%2830%20Kas%C4%B1m-04%20Aral%C4%B1k%202026%29.pdf%20",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": [
+    "İzmir"
+   ]
   },
   {
    "source": "OMÜ Sözleşmeli Personel İlanları",
@@ -285,7 +332,8 @@
    "status": "manuel",
    "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": []
   },
   {
    "source": "OMÜ Sözleşmeli Personel İlanları",
@@ -296,7 +344,10 @@
    "status": "uygun_degil",
    "reason": "P93 / ön lisans geçmiyor (lisans veya lise ilanı olabilir).",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": [
+    "Elazığ"
+   ]
   },
   {
    "source": "OMÜ KPSS-B İlanları",
@@ -307,7 +358,10 @@
    "status": "okunamadi",
    "reason": "İndirilemedi: 404 Client Error: Not Found for url: https://mezun.omu.edu.tr/tr/is-hayati/is-staj/kpss-b-ilanlari/Eyy%C3%BCbiye%20%28%C5%9Eanl%C4%B1urfa%29%20Belediye%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20Personel%20%28Zab%C4%B1ta%20Memuru%29%20Al%C4%B1m%20%C4%B0lan%C4%B1%20%2807-10%20Aral%C4%B1k%202026%29.pdf%20",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": [
+    "Şanlıurfa"
+   ]
   },
   {
    "source": "OMÜ KPSS-B İlanları",
@@ -318,7 +372,10 @@
    "status": "okunamadi",
    "reason": "İndirilemedi: 404 Client Error: Not Found for url: https://mezun.omu.edu.tr/tr/is-hayati/is-staj/kpss-b-ilanlari/Bergama%20%28%C4%B0zmir%29%20Belediye%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20Personel%20%28Memur%29%20Al%C4%B1m%20%C4%B0lan%C4%B1%20%2809-11%20Aral%C4%B1k%202026%29.pdf%20",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": [
+    "İzmir"
+   ]
   },
   {
    "source": "OMÜ KPSS-B İlanları",
@@ -329,7 +386,10 @@
    "status": "okunamadi",
    "reason": "İndirilemedi: 404 Client Error: Not Found for url: https://mezun.omu.edu.tr/tr/is-hayati/is-staj/kpss-b-ilanlari/Gaziosmanpa%C5%9Fa%20%28%C4%B0stanbul%29%20Belediye%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20Personel%20%28Zab%C4%B1ta%20Memuru%29%20Al%C4%B1m%20%C4%B0lan%C4%B1%20%2807-11%20Aral%C4%B1k%202026%29.pdf%20",
    "mins": [],
-   "snippet": ""
+   "snippet": "",
+   "iller": [
+    "İstanbul"
+   ]
   }
  ],
  "errors": [
