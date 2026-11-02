@@ -8,8 +8,10 @@
 body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.5 system-ui,sans-serif}
 main{max-width:780px;margin:0 auto;padding:20px 16px 40px}
 h1{font-size:1.4rem;margin:0}.mu{color:var(--mu);font-size:.88rem}
-.row{display:flex;gap:16px;flex-wrap:wrap;align-items:end;margin:14px 0}
-input[type=number]{font:inherit;padding:8px;border:1px solid var(--bd);border-radius:8px;background:var(--card);color:var(--tx);width:110px}
+.row{display:flex;gap:14px;flex-wrap:wrap;align-items:end;margin:14px 0}
+label{font-size:.85rem;color:var(--mu)}
+input[type=number],select{font:inherit;padding:8px;border:1px solid var(--bd);border-radius:8px;background:var(--card);color:var(--tx)}
+input[type=number]{width:100px}select{max-width:100%}
 .card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:14px;margin-bottom:12px}
 .card h3{margin:0 0 6px;font-size:1rem}
 .b{display:inline-block;font-size:.76rem;font-weight:600;padding:2px 8px;border-radius:99px;border:1px solid currentColor;margin-right:6px}
@@ -19,29 +21,49 @@ a{color:var(--ac)}blockquote{margin:8px 0 0;padding-left:10px;border-left:3px so
 <h1>KPSS Ön Lisans İlan Takip</h1>
 <p class="mu" id="upd">Yükleniyor…</p>
 <div class="row">
-<label>KPSS P93 puanınız<br><input id="p" type="number" min="0" max="100" step="0.01" value="75"></label>
-<label><input id="all" type="checkbox"> Uygun olmayanları ve süresi dolanları da göster</label>
+<div><label for="p">KPSS P93 puanınız</label><br><input id="p" type="number" min="0" max="100" step="0.01" value="75"></div>
+<div><label for="il">İl</label><br><select id="il"></select></div>
+<div><label for="sr">Sıralama</label><br><select id="sr"></select></div>
 </div>
-<p class="mu">Durum etiketleri ilan PDF’indeki ifadelere dayanan otomatik bir değerlendirmedir. Başvurmadan önce ilanın kendisini mutlaka okuyun.</p>
+<label><input id="all" type="checkbox"> Uygun olmayanları ve süresi dolanları da göster</label>
+<p class="mu">Durum etiketleri ve il bilgisi, ilan başlığı ve PDF’indeki ifadelere dayanan otomatik bir değerlendirmedir; hatalı olabilir. Başvurmadan önce ilanın kendisini mutlaka okuyun.</p>
+<p class="mu" id="cnt"></p>
 <div id="list"></div>
 <script>
 const LBL={uygun:"Uygun olabilir",kontrol:"Elle kontrol et",manuel:"Kurum sitesi: elle kontrol et",okunamadi:"Okunamadı: elle kontrol et",uygun_degil:"Uygun görünmüyor"};
+const SORTS={
+ bas_yeni:["İlan tarihi: yeniden eskiye",x=>x.start,-1],
+ bas_eski:["İlan tarihi: eskiden yeniye",x=>x.start,1],
+ son_yakin:["Son başvuru: yaklaşan önce",x=>x.end,1],
+ son_uzak:["Son başvuru: uzak tarih önce",x=>x.end,-1],
+ az:["Başlık: A’dan Z’ye",x=>x.title,1]};
 const $=id=>document.getElementById(id);
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const fd=s=>s?new Date(s+"T12:00:00").toLocaleDateString("tr-TR",{day:"numeric",month:"long",year:"numeric"}):"?";
 let D=null;
+function sortRows(rows,k){const f=SORTS[k][1],dir=SORTS[k][2];
+ return rows.slice().sort((a,b)=>{const A=f(a),B=f(b);if(!A&&!B)return 0;if(!A)return 1;if(!B)return -1;return dir*A.localeCompare(B,"tr")})}
 function render(){
- if(!D)return;const p=parseFloat($("p").value),all=$("all").checked,t=new Date().toISOString().slice(0,10);
- const rows=D.postings.filter(x=>all||((!x.end||x.end>=t)&&x.status!=="uygun_degil"));
+ if(!D)return;const p=parseFloat($("p").value),all=$("all").checked,il=$("il").value,t=new Date().toISOString().slice(0,10);
+ let rows=D.postings.filter(x=>all||((!x.end||x.end>=t)&&x.status!=="uygun_degil"));
+ if(il==="__none")rows=rows.filter(x=>!(x.iller&&x.iller.length));
+ else if(il)rows=rows.filter(x=>(x.iller||[]).includes(il));
+ rows=sortRows(rows,$("sr").value);
+ $("cnt").textContent=rows.length+" ilan listeleniyor";
  $("list").innerHTML=rows.map(x=>{
   const open=x.end&&x.end<t?'<span class="b no">Süresi doldu</span>':(x.start&&x.start>t?'<span class="b wa">Henüz başlamadı</span>':'<span class="b ok">Başvuru açık</span>');
   let sc="";if(x.mins&&x.mins.length){const lo=Math.min(...x.mins),low=!isNaN(p)&&p<lo;sc=`<span class="b ${low?'no':'ok'}">Taban puan: ${x.mins.join(", ")}${low?" (puanınız düşük olabilir)":""}</span>`}
+  const ils=x.iller&&x.iller.length?x.iller.join(", "):"belirtilmemiş";
   return `<div class="card"><h3>${esc(x.title)}</h3>${open}<span class="b ${x.status}">${LBL[x.status]||x.status}</span>${sc}
-  <p class="mu">${esc(x.reason)}<br>Başvuru: ${fd(x.start)} – ${fd(x.end)}<br>İlan yeri: ${esc(x.source)} · <a href="${esc(x.url)}" target="_blank" rel="noopener">İlanı aç</a></p>
+  <p class="mu">${esc(x.reason)}<br>İl: ${esc(ils)}<br>Başvuru: ${fd(x.start)} – ${fd(x.end)}<br>İlan yeri: ${esc(x.source)} · <a href="${esc(x.url)}" target="_blank" rel="noopener">İlanı aç</a></p>
   ${x.snippet?`<blockquote>…${esc(x.snippet)}…</blockquote>`:""}</div>`}).join("")||'<p class="mu">Gösterilecek ilan yok.</p>';
 }
+$("sr").innerHTML=Object.entries(SORTS).map(([k,v])=>`<option value="${k}">${v[0]}</option>`).join("");
 fetch("data.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{D=d;
+ const set=new Set();d.postings.forEach(x=>(x.iller||[]).forEach(i=>set.add(i)));
+ const names=[...set].sort((a,b)=>a.localeCompare(b,"tr"));
+ $("il").innerHTML='<option value="">Tüm iller</option>'+names.map(n=>`<option>${esc(n)}</option>`).join("")+'<option value="__none">İl belirtilmemiş</option>';
  $("upd").textContent=d.updated?"Son güncelleme: "+new Date(d.updated).toLocaleString("tr-TR")+(d.errors&&d.errors.length?" · "+d.errors.length+" uyarı":""):"Henüz veri yok. GitHub’da Actions sekmesinden çalıştırın.";render()})
  .catch(()=>{$("upd").textContent="Veri yüklenemedi."});
-$("p").oninput=render;$("all").onchange=render;
+["p","il","sr"].forEach(i=>$(i).addEventListener("input",render));$("all").onchange=render;
 </script></main></body></html>
