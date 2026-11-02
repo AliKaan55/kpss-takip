@@ -24,6 +24,34 @@ def fold(s):  # uzunluğu korur: Türkçe harfleri ASCII'ye çevirip küçültü
     return s.translate(_MAP).lower()
 
 
+ILLER = ["Adana", "Adıyaman", "Afyonkarahisar", "Ağrı", "Aksaray", "Amasya", "Ankara", "Antalya", "Ardahan",
+         "Artvin", "Aydın", "Balıkesir", "Bartın", "Batman", "Bayburt", "Bilecik", "Bingöl", "Bitlis", "Bolu",
+         "Burdur", "Bursa", "Çanakkale", "Çankırı", "Çorum", "Denizli", "Diyarbakır", "Düzce", "Edirne", "Elazığ",
+         "Erzincan", "Erzurum", "Eskişehir", "Gaziantep", "Giresun", "Gümüşhane", "Hakkari", "Hatay", "Iğdır",
+         "Isparta", "İstanbul", "İzmir", "Kahramanmaraş", "Karabük", "Karaman", "Kars", "Kastamonu", "Kayseri",
+         "Kilis", "Kırıkkale", "Kırklareli", "Kırşehir", "Kocaeli", "Konya", "Kütahya", "Malatya", "Manisa",
+         "Mardin", "Mersin", "Muğla", "Muş", "Nevşehir", "Niğde", "Ordu", "Osmaniye", "Rize", "Sakarya", "Samsun",
+         "Siirt", "Sinop", "Sivas", "Şanlıurfa", "Şırnak", "Tekirdağ", "Tokat", "Trabzon", "Tunceli", "Uşak", "Van",
+         "Yalova", "Yozgat", "Zonguldak"]
+assert len(ILLER) == 81
+IL_PATTERNS = [(il, re.compile(r"(?<![a-z])" + fold(il) + r"(?![a-z])")) for il in ILLER]
+IL_PATTERNS += [("Afyonkarahisar", re.compile(r"(?<![a-z])afyon(?![a-z])")),
+                ("Kahramanmaraş", re.compile(r"(?<![a-z])maras(?![a-z])")),
+                ("Şanlıurfa", re.compile(r"(?<![a-z])urfa(?![a-z])")),
+                ("Gaziantep", re.compile(r"(?<![a-z])antep(?![a-z])"))]
+
+
+def detect_iller(text):
+    """Metinde geçen illeri, geçiş sırasına göre döndürür."""
+    f = fold(text)
+    pos = {}
+    for il, rx in IL_PATTERNS:
+        m = rx.search(f)
+        if m and (il not in pos or m.start() < pos[il]):
+            pos[il] = m.start()
+    return sorted(pos, key=pos.get)
+
+
 def parse_dates(title):
     m = DATE_RE.search(title)
     if not m:
@@ -101,7 +129,9 @@ def analyze(url):
         return {"status": "manuel", "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.", "mins": [], "snippet": ""}
     reader = PdfReader(io.BytesIO(r.content))
     text = "\n".join((p.extract_text() or "") for p in reader.pages[:40])
-    return classify(text)
+    res = classify(text)
+    res["_head"] = text[:2500]
+    return res
 
 
 def main():
@@ -125,14 +155,17 @@ def main():
         if p["end"] and dt.date.fromisoformat(p["end"]) < today - dt.timedelta(days=14):
             continue
         prev = old.get(p["url"])
-        if prev and prev.get("status") not in (None, "okunamadi"):
-            p.update({k: prev[k] for k in ("status", "reason", "mins", "snippet")})
+        if prev and prev.get("status") not in (None, "okunamadi") and "iller" in prev:
+            p.update({k: prev[k] for k in ("status", "reason", "mins", "snippet", "iller")})
         else:
+            head = ""
             try:
                 p.update(analyze(p["url"]))
+                head = p.pop("_head", "")
             except Exception as e:
                 p.update({"status": "okunamadi", "reason": f"İndirilemedi: {e}", "mins": [], "snippet": ""})
                 errors.append(f"{p['title']}: {e}")
+            p["iller"] = detect_iller(p["title"]) or detect_iller(head)
         result.append(p)
     result.sort(key=lambda x: x["end"] or "9999")
     OUT.write_text(json.dumps({"updated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes"),
