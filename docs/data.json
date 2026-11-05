@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T12:47+00:00",
+ "updated": "2026-11-05T12:57+00:00",
  "postings": [
   {
    "source": "OMÜ KPSS-B İlanları",
@@ -14,18 +14,6 @@
    "iller": [
     "Muş"
    ]
-  },
-  {
-   "source": "OMÜ KPSS-B İlanları",
-   "title": "Türkiye Bilimsel ve Teknolojik Araştırma Kurumu Başkanlığı (TÜBİTAK) Personel (Aday Araştırmacı) Alım İlanı (30 Eylül-04 Kasım 2026)",
-   "url": "https://kariyer.tubitak.gov.tr/anasayfa-ilan-listesi ",
-   "start": "2026-09-30",
-   "end": "2026-11-04",
-   "status": "manuel",
-   "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
-   "mins": [],
-   "snippet": "",
-   "iller": []
   },
   {
    "source": "OMÜ Sözleşmeli Personel İlanları",
@@ -219,6 +207,18 @@
   },
   {
    "source": "OMÜ Sözleşmeli Personel İlanları",
+   "title": "Nükleer Düzenleme Kurumu Sözleşmeli Bilişim Personeli Alım İlanı (09-23 Kasım 2026)",
+   "url": "https://kariyerkapisi.gov.tr/IlanDetay?i=4d1a4aba-67fa-449d-b19d-13b197a770f0 ",
+   "start": "2026-11-09",
+   "end": "2026-11-23",
+   "status": "manuel",
+   "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
+   "mins": [],
+   "snippet": "",
+   "iller": []
+  },
+  {
+   "source": "OMÜ Sözleşmeli Personel İlanları",
    "title": "Yıldız Teknik Üniversitesi Sözleşmeli Bilişim Personeli Alım İlanı (02 Kasım-01 Aralık 2026)",
    "url": "https://kariyerkapisi.gov.tr/IlanDetay?i=a1ba338b-81ac-4dfb-9cc3-dc53c4c438cd",
    "start": "2026-11-02",
@@ -376,9 +376,36 @@
    "iller": [
     "İstanbul"
    ]
+  },
+  {
+   "source": "OMÜ Sözleşmeli Personel İlanları",
+   "title": "Zafer Kalkınma Ajansı Personel (Uzman) Alım İlanı (25 Kasım-14 Aralık 2026)",
+   "url": "https://kariyerkapisi.gov.tr/IlanDetay?i=6e7cd2e5-b3d8-4c95-916b-6e1ff234b0b0 ",
+   "start": "2026-11-25",
+   "end": "2026-12-14",
+   "status": "manuel",
+   "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
+   "mins": [],
+   "snippet": "",
+   "iller": []
+  },
+  {
+   "source": "OMÜ KPSS-B İlanları",
+   "title": "Ula (Muğla) Belediye Başkanlığı Personel (Zabıta Memuru) Alım İlanı (21-23 Aralık 2026)",
+   "url": "https://mezun.omu.edu.tr/tr/is-hayati/is-staj/kpss-b-ilanlari/Ula%20%28Mu%C4%9Fla%29%20Belediye%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20Personel%20%28Zab%C4%B1ta%20Memuru%29%20Al%C4%B1m%20%C4%B0lan%C4%B1%20%2821-23%20Aral%C4%B1k%202026%29.pdf ",
+   "start": "2026-12-21",
+   "end": "2026-12-23",
+   "status": "okunamadi",
+   "reason": "İndirilemedi: 404 Client Error: Not Found for url: https://mezun.omu.edu.tr/tr/is-hayati/is-staj/kpss-b-ilanlari/Ula%20%28Mu%C4%9Fla%29%20Belediye%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20Personel%20%28Zab%C4%B1ta%20Memuru%29%20Al%C4%B1m%20%C4%B0lan%C4%B1%20%2821-23%20Aral%C4%B1k%202026%29.pdf%20",
+   "mins": [],
+   "snippet": "",
+   "iller": [
+    "Muğla"
+   ]
   }
  ],
  "errors": [
+  "Ula (Muğla) Belediye Başkanlığı Personel (Zabıta Memuru) Alım İlanı (21-23 Aralık 2026): 404 Client Error: Not Found for url: https://mezun.omu.edu.tr/tr/is-hayati/is-staj/kpss-b-ilanlari/Ula%20%28Mu%C4%9Fla%29%20Belediye%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20Personel%20%28Zab%C4%B1ta%20Memuru%29%20Al%C4%B1m%20%C4%B0lan%C4%B1%20%2821-23%20Aral%C4%B1k%202026%29.pdf%20",
   "Bergama (İzmir) Belediye Başkanlığı Personel (Memur) Alım İlanı (09-11 Aralık 2026): 404 Client Error: Not Found for url: https://mezun.omu.edu.tr/tr/is-hayati/is-staj/kpss-b-ilanlari/Bergama%20%28%C4%B0zmir%29%20Belediye%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20Personel%20%28Memur%29%20Al%C4%B1m%20%C4%B0lan%C4%B1%20%2809-11%20Aral%C4%B1k%202026%29.pdf%20",
   "Gaziosmanpaşa (İstanbul) Belediye Başkanlığı Personel (Zabıta Memuru) Alım İlanı (07-11 Aralık 2026): 404 Client Error: Not Found for url: https://mezun.omu.edu.tr/tr/is-hayati/is-staj/kpss-b-ilanlari/Gaziosmanpa%C5%9Fa%20%28%C4%B0stanbul%29%20Belediye%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20Personel%20%28Zab%C4%B1ta%20Memuru%29%20Al%C4%B1m%20%C4%B0lan%C4%B1%20%2807-11%20Aral%C4%B1k%202026%29.pdf%20",
   "Eyyübiye (Şanlıurfa) Belediye Başkanlığı Personel (Zabıta Memuru) Alım İlanı (07-10 Aralık 2026): 404 Client Error: Not Found for url: https://mezun.omu.edu.tr/tr/is-hayati/is-staj/kpss-b-ilanlari/Eyy%C3%BCbiye%20%28%C5%9Eanl%C4%B1urfa%29%20Belediye%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20Personel%20%28Zab%C4%B1ta%20Memuru%29%20Al%C4%B1m%20%C4%B0lan%C4%B1%20%2807-10%20Aral%C4%B1k%202026%29.pdf%20",
