@@ -1,68 +1,6 @@
 {
- "updated": "2026-11-09T01:28+00:00",
+ "updated": "2026-11-09T13:36+00:00",
  "postings": [
-  {
-   "source": "OMÜ KPSS-B İlanları",
-   "title": "Çeltik (Konya) Belediye Başkanlığı Personel (Mühendis (Harita, İnşaat)) Alım İlanı (02-06 Kasım 2026)",
-   "url": "https://mezun.omu.edu.tr/tr/is-hayati/is-staj/kpss-b-ilanlari/%C3%87eltik%20%28Konya%29%20Belediye%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20Personel%20%28M%C3%BChendis%20%28Harita,%20%C4%B0n%C5%9Faat%29%29%20Al%C4%B1m%20%C4%B0lan%C4%B1%20%2802-06%20Kas%C4%B1m%202026%29.pdf ",
-   "start": "2026-11-02",
-   "end": "2026-11-06",
-   "status": "okunamadi",
-   "reason": "İndirilemedi: 404 Client Error: Not Found for url: https://mezun.omu.edu.tr/tr/is-hayati/is-staj/kpss-b-ilanlari/%C3%87eltik%20%28Konya%29%20Belediye%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20Personel%20%28M%C3%BChendis%20%28Harita,%20%C4%B0n%C5%9Faat%29%29%20Al%C4%B1m%20%C4%B0lan%C4%B1%20%2802-06%20Kas%C4%B1m%202026%29.pdf%20",
-   "mins": [],
-   "snippet": "",
-   "iller": [
-    "Konya"
-   ]
-  },
-  {
-   "source": "OMÜ Sözleşmeli Personel İlanları",
-   "title": "Tarım ve Orman Bakanlığı Sözleşmeli Bilişim Personeli Alım İlanı (22 Ekim-06 Kasım 2026)",
-   "url": "https://kariyerkapisi.gov.tr/IlanDetay?i=5976effc-ff4b-49b1-a5d7-c08d82d81636 ",
-   "start": "2026-10-22",
-   "end": "2026-11-06",
-   "status": "manuel",
-   "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
-   "mins": [],
-   "snippet": "",
-   "iller": []
-  },
-  {
-   "source": "OMÜ Sözleşmeli Personel İlanları",
-   "title": "Galatasaray Üniversitesi Sözleşmeli Bilişim Personeli Alım İlanı (22 Ekim-06 Kasım 2026)",
-   "url": "https://kariyerkapisi.gov.tr/IlanDetay?i=7726dd9c-56dd-49e0-a0b2-a098e6c57b8a",
-   "start": "2026-10-22",
-   "end": "2026-11-06",
-   "status": "manuel",
-   "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
-   "mins": [],
-   "snippet": "",
-   "iller": []
-  },
-  {
-   "source": "OMÜ Sözleşmeli Personel İlanları",
-   "title": "Cumhurbaşkanlığı Milli Saraylar İdaresi Başkanlığı Sözleşmeli (Müze Görevlisi (Kazı Görevlisi)) Personel Alım İlanı (28 Ekim-08 Kasım 2026)",
-   "url": "https://kariyerkapisi.gov.tr/IlanDetay?i=39c5ca3c-3571-485b-b226-2ff559360a0a",
-   "start": "2026-10-28",
-   "end": "2026-11-08",
-   "status": "manuel",
-   "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
-   "mins": [],
-   "snippet": "",
-   "iller": []
-  },
-  {
-   "source": "OMÜ Sözleşmeli Personel İlanları",
-   "title": "Türkiye İş Kurumu Genel Müdürlüğü Sözleşmeli Bilişim Personeli Alım İlanı (26 Ekim-08 Kasım 2026)",
-   "url": "https://kariyerkapisi.gov.tr/IlanDetay?i=320d07cc-b5bc-4bab-9541-6c1100def856",
-   "start": "2026-10-26",
-   "end": "2026-11-08",
-   "status": "manuel",
-   "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
-   "mins": [],
-   "snippet": "",
-   "iller": []
-  },
   {
    "source": "OMÜ Sözleşmeli Personel İlanları",
    "title": "Burdur Mehmet Akif Ersoy Üniversitesi Sözleşmeli Bilişim Personeli Alım İlanı (28 Ekim-11 Kasım 2026)",
@@ -140,6 +78,18 @@
    "iller": []
   },
   {
+   "source": "OMÜ Sözleşmeli Personel İlanları",
+   "title": "Cumhurbaşkanlığı Milli Saraylar İdaresi Başkanlığı Sözleşmeli (Koruma ve Güvenlik Görevlisi, Restoratör (Kalemkar)) Personel Alım İlanı (07-17 Kasım 2026)",
+   "url": "https://kariyerkapisi.gov.tr/IlanDetay?i=877cfe70-3bd5-4c0f-93e4-64da34f001f5 ",
+   "start": "2026-11-07",
+   "end": "2026-11-17",
+   "status": "manuel",
+   "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
+   "mins": [],
+   "snippet": "",
+   "iller": []
+  },
+  {
    "source": "OMÜ KPSS-B İlanları",
    "title": "Keşan (Edirne) Belediye Başkanlığı Personel (Mühendis (İnşaat, Elektrik-Elektronik)) Alım İlanı (16-19 Kasım 2026)",
    "url": "https://mezun.omu.edu.tr/tr/is-hayati/is-staj/kpss-b-ilanlari/Ke%C5%9Fan%20%28Edirne%29%20Belediye%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20Personel%20%28M%C3%BChendis%20%28Harita,%20Elektrik-Elektronik%29%29%20Al%C4%B1m%20%C4%B0lan%C4%B1%20%2816-19%20Kas%C4%B1m%202026%29.pdf ",
@@ -164,6 +114,20 @@
    "mins": [],
    "snippet": "",
    "iller": []
+  },
+  {
+   "source": "OMÜ Sözleşmeli Personel İlanları",
+   "title": "İzmir Demokrasi Üniversitesi Sözleşmeli (Avukat) Personel Alım İlanı (07-20 Kasım 2026)",
+   "url": "https://kariyerkapisi.gov.tr/IlanDetay?i=26f5b7a7-865c-483f-9045-2f77e5e7fb9d ",
+   "start": "2026-11-07",
+   "end": "2026-11-20",
+   "status": "manuel",
+   "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
+   "mins": [],
+   "snippet": "",
+   "iller": [
+    "İzmir"
+   ]
   },
   {
    "source": "OMÜ Sözleşmeli Personel İlanları",
@@ -414,7 +378,6 @@
   "Keşan (Edirne) Belediye Başkanlığı Personel (Mühendis (İnşaat, Elektrik-Elektronik)) Alım İlanı (16-19 Kasım 2026): 404 Client Error: Not Found for url: https://mezun.omu.edu.tr/tr/is-hayati/is-staj/kpss-b-ilanlari/Ke%C5%9Fan%20%28Edirne%29%20Belediye%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20Personel%20%28M%C3%BChendis%20%28Harita,%20Elektrik-Elektronik%29%29%20Al%C4%B1m%20%C4%B0lan%C4%B1%20%2816-19%20Kas%C4%B1m%202026%29.pdf%20",
   "İçişleri Bakanlığı Jandarma ve Sahil Güvenlik Akademisi Başkanlığı Personel (Memur) Alım İlanı (02-16 Kasım 2026): 404 Client Error: Not Found for url: https://www.jsga.edu.tr/kurumlar/jsga.edu.tr/Duyurular/2026/kasim/memur/JGnKligi-2026-Yili-Aciktan-Devlet-Memuru-Temini-Basvuru-Kilavuzu(1).pdf%20",
   "Şile (İstanbul) Belediye Başkanlığı Personel (Zabıta Memuru, Tekniker (Harita)) Alım İlanı (09-13 Kasım 2026): 404 Client Error: Not Found for url: https://mezun.omu.edu.tr/tr/is-hayati/is-staj/kpss-b-ilanlari/%C5%9Eile%20%28%C4%B0stanbul%29%20Belediye%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20Personel%20%28Zab%C4%B1ta%20Memuru,%20Tekniker%20%28Harita%29%29%20Al%C4%B1m%20%C4%B0lan%C4%B1%20%2809-13%20Kas%C4%B1m%202026%29.pdf%20",
-  "Çeltik (Konya) Belediye Başkanlığı Personel (Mühendis (Harita, İnşaat)) Alım İlanı (02-06 Kasım 2026): 404 Client Error: Not Found for url: https://mezun.omu.edu.tr/tr/is-hayati/is-staj/kpss-b-ilanlari/%C3%87eltik%20%28Konya%29%20Belediye%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20Personel%20%28M%C3%BChendis%20%28Harita,%20%C4%B0n%C5%9Faat%29%29%20Al%C4%B1m%20%C4%B0lan%C4%B1%20%2802-06%20Kas%C4%B1m%202026%29.pdf%20",
   "Karabağlar (İzmir) Belediye Başkanlığı Sözleşmeli (Mühendis (Çevre)) Personel Alım İlanı (30 Kasım-04 Aralık 2026): 404 Client Error: Not Found for url: https://mezun.omu.edu.tr/tr/is-hayati/is-staj/4-b-soezlesmeli-personel-alim-ilanlari/Karaba%C4%9Flar%20%28%C4%B0zmir%29%20Belediye%20Ba%C5%9Fkanl%C4%B1%C4%9F%C4%B1%20S%C3%B6zle%C5%9Fmeli%20%28M%C3%BChendis%20%28%C3%87evre%29%29%20Personel%20Al%C4%B1m%20%C4%B0lan%C4%B1%20%2830%20Kas%C4%B1m-04%20Aral%C4%B1k%202026%29.pdf%20"
  ]
 }
