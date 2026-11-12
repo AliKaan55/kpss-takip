@@ -1,20 +1,6 @@
 {
- "updated": "2026-11-11T12:24+00:00",
+ "updated": "2026-11-12T13:32+00:00",
  "postings": [
-  {
-   "source": "OMÜ Sözleşmeli Personel İlanları",
-   "title": "Burdur Mehmet Akif Ersoy Üniversitesi Sözleşmeli Bilişim Personeli Alım İlanı (28 Ekim-11 Kasım 2026)",
-   "url": "https://kariyerkapisi.gov.tr/IlanDetay?i=f7ee3ab4-6c25-48f1-8a78-588066e3cf52",
-   "start": "2026-10-28",
-   "end": "2026-11-11",
-   "status": "manuel",
-   "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
-   "mins": [],
-   "snippet": "",
-   "iller": [
-    "Burdur"
-   ]
-  },
   {
    "source": "OMÜ KPSS-B İlanları",
    "title": "Şile (İstanbul) Belediye Başkanlığı Personel (Zabıta Memuru, Tekniker (Harita)) Alım İlanı (09-13 Kasım 2026)",
@@ -343,6 +329,18 @@
    "url": "https://kariyerkapisi.gov.tr/IlanDetay?i=6e7cd2e5-b3d8-4c95-916b-6e1ff234b0b0 ",
    "start": "2026-11-25",
    "end": "2026-12-14",
+   "status": "manuel",
+   "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
+   "mins": [],
+   "snippet": "",
+   "iller": []
+  },
+  {
+   "source": "OMÜ Sözleşmeli Personel İlanları",
+   "title": "Cumhurbaşkanlığı Savunma Sanayii Başkanlığı Proje Bazlı Sözleşmeli Personel Alım İlanı (20 Kasım-21 Aralık 2026)",
+   "url": "https://kariyerkapisi.gov.tr/IlanDetay?i=41353f9d-7dda-4b65-b2ba-de6bf8e72f54",
+   "start": "2026-11-20",
+   "end": "2026-12-21",
    "status": "manuel",
    "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
    "mins": [],
