@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T12:50+00:00",
+ "updated": "2026-11-14T11:56+00:00",
  "postings": [
   {
    "source": "OMÜ KPSS-B İlanları",
@@ -176,6 +176,22 @@
    "mins": [],
    "snippet": "",
    "iller": []
+  },
+  {
+   "source": "OMÜ KPSS-B İlanları",
+   "title": "İçişleri Bakanlığı Sahil Güvenlik Komutanlığı Personel (Mali İşler Uzmanı, Psikolog, Yabancı Dil Öğretmeni (İngilizce), Tedarik Uzmanı, Video Montaj Teknikeri, Muhasebeci) Alım İlanı (16-27 Kasım 2026)",
+   "url": "https://www.sg.gov.tr/kurumlar/sg.gov.tr/duyurular/2026/DEME-TEMIN-KILAVUZU-2026.pdf",
+   "start": "2026-11-16",
+   "end": "2026-11-27",
+   "status": "kontrol",
+   "reason": "P93 geçiyor ama Bilgisayar Programcılığı geçmiyor; kadronun bölüm şartını okuyun.",
+   "mins": [],
+   "snippet": "Yüksekokullarının; Radyo ve Televizyon Teknolojisi, Radyo ve Televizyon Programcılığı bölümlerinin birinden mezun olmak. MERKEZ ANKARA (1) 2026 YILI KPSSP93 ASGARİ 60 GİHS Muhasebeci 1 K/E Meslek Yüksekokullarının; Muhasebe, Muhasebe ve Vergi Uygulamaları, Bilgisayarlı Muhasebe ve Vergi Uygulamaları, Maliye",
+   "iller": [
+    "Ankara",
+    "İzmir",
+    "İstanbul"
+   ]
   },
   {
    "source": "OMÜ Sözleşmeli Personel İlanları",
