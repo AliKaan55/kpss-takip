@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T14:41+00:00",
+ "updated": "2026-11-27T14:39+00:00",
  "postings": [
   {
    "source": "OMÜ KPSS-B İlanları",
@@ -261,6 +261,30 @@
    "url": "https://www.turkiye.gov.tr/icisleri-bakanligi-personel-sinav-basvurusu",
    "start": "2026-12-07",
    "end": "2026-12-11",
+   "status": "manuel",
+   "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
+   "mins": [],
+   "snippet": "",
+   "iller": []
+  },
+  {
+   "source": "OMÜ Sözleşmeli Personel İlanları",
+   "title": "Selçuk Üniversitesi Sözleşmeli Bilişim Personeli Alım İlanı (27 Kasım-14 Aralık 2026)",
+   "url": "https://kariyerkapisi.gov.tr/IlanDetay?i=20b04c08-a1a3-4c86-93e3-f6876db3a74f ",
+   "start": "2026-11-27",
+   "end": "2026-12-14",
+   "status": "manuel",
+   "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
+   "mins": [],
+   "snippet": "",
+   "iller": []
+  },
+  {
+   "source": "OMÜ Sözleşmeli Personel İlanları",
+   "title": "Dışişleri Bakanlığı Avrupa Birliği Başkanlığı Sözleşmeli Personel (Destek Personeli (Şoför)) Alım İlanı (27 Kasım-14 Aralık 2026)",
+   "url": "https://kariyerkapisi.gov.tr/IlanDetay?i=add4bb83-a310-4b00-9f8b-6771300863f5 ",
+   "start": "2026-11-27",
+   "end": "2026-12-14",
    "status": "manuel",
    "reason": "Bu ilan PDF değil, kurumun kendi sitesinde; elle kontrol edin.",
    "mins": [],
